@@ -1,0 +1,119 @@
+@font-face {
+    src: url("Bavex.ttf");
+    font-family: Bavex;
+}
+
+body {
+    background: #040404;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #DEDEDE;
+    max-width: 700px;
+    margin: auto;
+}
+
+img {
+    width: 200px;
+    object-fit: cover;
+}
+
+#web-name {
+    font-family: "Bavex", Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    font-size: 80px;
+    font-weight: lighter;
+    margin: 20px 0 0 10px;
+}
+
+
+.header {
+    display: flex;
+}
+
+.search-bar {
+    background: #2F3032;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    min-width: 350px;
+    height: 10px;
+    padding: 10px;
+    margin: 35px;
+}
+
+#special-day {
+    color: #717274;
+}
+
+#greetings {
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-end;
+    color: #EFCF96;
+}
+
+#greetings-border {
+    position: absolute;
+    border: 1px solid #8A8A8A;
+    height: 70px;
+    width: 430px;
+    top: 131px;
+    right: -15px;
+}
+
+.colored {
+    display: flex;
+    margin: 60px 0;
+}
+
+.style-h3 {
+    font-weight: 300;
+}
+
+#clrd1 {
+    width: 350px;
+    margin-right: 10px;
+}
+
+
+#yizhuo {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin: 5px;
+}
+
+.black-white {
+    display: flex;
+    justify-content: space-between;
+}
+
+#blw1 {
+    width: 150px;
+}
+
+
+#blw2 {
+    width: 350px;
+}
+
+#place-of-birth {
+    margin: -17px;
+}
+
+p {
+    margin: 0px;
+}
+
+hr {
+    width: 60%;
+    border-color: #8A8A8A;
+    margin-top: 100px;
+}
+
+#sm {
+    text-align: center;
+}
